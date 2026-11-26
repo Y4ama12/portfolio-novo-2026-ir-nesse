@@ -1,0 +1,42 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    border-radius: 1000px;
+    border-style: ridge;
+    background-image: url(dime.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cartão img {
+    margin-top: 20px;
+    width: 40%;
+    background-color: rgb(233, 230, 230);
+}
+
+img {
+    width: 200px;
+}
+
+p, h1, h2 {
+    color: rgb(167, 3, 3);
+}
+
+a p {
+    background-color: rgb(255, 0, 0);
+    width: 20%;
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(237, 237, 237);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
+    margin: 15px auto;
+}
+
+a p:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2) rotate(45deg);
+}
